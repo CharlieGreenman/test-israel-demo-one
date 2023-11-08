@@ -23,6 +23,9 @@
       ],
       "@test-israel-demo-one/common/ui": [
         "libs/common/ui/src/index.ts"
+      ],
+      "@test-israel-demo-one/home": [
+        "libs/home/src/index.ts"
       ]
     }
   },
