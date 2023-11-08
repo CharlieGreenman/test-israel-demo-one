@@ -35,6 +35,9 @@
       ],
       "@test-israel-demo-one/data-access": [
         "libs/data-access/src/index.ts"
+      ],
+      "@test-israel-demo-one/data-services": [
+        "libs/data-services/src/index.ts"
       ]
     }
   },
