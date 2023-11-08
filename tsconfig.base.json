@@ -44,6 +44,9 @@
       ],
       "@test-israel-demo-one/data-models": [
         "libs/data-models/src/index.ts"
+      ],
+      "@test-israel-demo-one/common/common-environment": [
+        "libs/common/common-environment/src/index.ts"
       ]
     }
   },
