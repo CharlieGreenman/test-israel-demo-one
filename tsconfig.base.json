@@ -32,6 +32,9 @@
       ],
       "@test-israel-demo-one/common/common-guards": [
         "libs/common/common-guards/src/index.ts"
+      ],
+      "@test-israel-demo-one/data-access": [
+        "libs/data-access/src/index.ts"
       ]
     }
   },
