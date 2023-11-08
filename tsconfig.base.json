@@ -41,6 +41,9 @@
       ],
       "@test-israel-demo-one/data-graphql": [
         "libs/data-graphql/src/index.ts"
+      ],
+      "@test-israel-demo-one/data-models": [
+        "libs/data-models/src/index.ts"
       ]
     }
   },
