@@ -7,7 +7,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/test-israel-demo-one",
         "index": "apps/test-israel-demo-one/src/index.html",
@@ -19,7 +21,9 @@
           "apps/test-israel-demo-one/src/favicon.ico",
           "apps/test-israel-demo-one/src/assets"
         ],
-        "styles": ["apps/test-israel-demo-one/src/styles.scss"],
+        "styles": [
+          "apps/test-israel-demo-one/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -38,8 +42,8 @@
           ],
           "fileReplacements": [
             {
-              "replace": "apps/test-israel-demo-one/src/environments/environment.ts",
-              "with": "apps/test-israel-demo-one/src/environments/environment.prod.ts"
+              "replace": "libs/common/environments/src/lib/environment.ts",
+              "with": "libs/common/environments/src/lib/environment.prod.ts"
             }
           ],
           "outputHashing": "all"
@@ -84,7 +88,9 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/apps/test-israel-demo-one"],
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/test-israel-demo-one"
+      ],
       "options": {
         "jestConfig": "apps/test-israel-demo-one/jest.config.ts",
         "passWithNoTests": true
