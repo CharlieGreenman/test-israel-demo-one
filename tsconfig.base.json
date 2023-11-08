@@ -20,6 +20,9 @@
     "paths": {
       "@test-israel-demo-one/common/styles": [
         "libs/common/styles/src/index.ts"
+      ],
+      "@test-israel-demo-one/common/ui": [
+        "libs/common/ui/src/index.ts"
       ]
     }
   },
